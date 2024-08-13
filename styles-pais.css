@@ -67,29 +67,9 @@ footer h3 {
     margin-top: 0;
 }
 
-#contacto, #redes-sociales {
+#contacto,
+#redes-sociales {
     margin: 10px;
-}
-
-#redes-sociales ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 15px;
-}
-
-#redes-sociales li {
-    display: inline;
-}
-
-#redes-sociales img {
-    width: 40px; /* Ajusta el tamaño según tu necesidad */
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Añade una transición suave */
-}
-
-#redes-sociales a:hover img {
-    transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el ratón */
-    opacity: 0.8; /* Reduce la opacidad del ícono */
 }
 
 #redes-sociales ul {
