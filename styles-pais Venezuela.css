@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F6F5F4;
+    color: #4D433A;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4D433A;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.flag-container {
+    text-align: center;
+}
+
+.flag-medium {
+    width: 100%;
+    max-width: 500px; /* Limita el tamaño máximo de la imagen */
+    height: auto;
+}
+
+#informacion {
+    padding: 20px;
+    text-align: center;
+}
+
+.int {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin: 0 auto; 
+    max-width: 800px; /* Limita el ancho del texto */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
+#platillos {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.platillo {
+    border: 1px solid #FFB600;
+    margin: 10px;
+    padding: 10px;
+    width: 300px; /* Ajusta el ancho de los platillos según sea necesario */
+    text-align: left;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra ligera */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.platillo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados en las imágenes */
+}
+
+footer {
+    background-color: #4D433A;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+#contacto, #redes-sociales {
+    margin: 10px;
+}
+
+#redes-sociales ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+#redes-sociales li {
+    display: inline;
+}
+
+#redes-sociales img {
+    width: 40px; /* Ajusta el tamaño según tu necesidad */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Añade una transición suave */
+}
+
+#redes-sociales a:hover img {
+    transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el ratón */
+    opacity: 0.8; /* Reduce la opacidad del ícono */
+}
